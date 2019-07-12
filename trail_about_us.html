@@ -1,0 +1,146 @@
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel='stylesheet' type='text/css' href='css_mit.css' />
+        <script>
+            mlScripts = [];
+        </script>
+    </head>
+
+
+
+
+
+        
+
+                
+
+                <div class='global-page '>
+                    
+    
+    
+    <div class='hero' style='background-image: url(extra-images/MIR__logo.png);'>
+        																										<!DOCTYPE html>
+													
+													<div class='hero-content'>
+            <form id="hero-search">
+                <fieldset>
+                    <div class='hero-content-title field'>
+                        
+                        We are interdisciplinary laboratory working in the area of 
+                        
+
+<fieldset class='field autocomplete variant-rotating-values variant-tag-search-input variant-single-value   variant-no-prefetch'
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    >
+
+    <div class='autocomplete-drop-menu variant-down-only'>
+        
+
+
+        <div class='field custom-input' data-ignore='true'>
+            <input class='autocomplete-control drop-menu-control'
+                type='text'
+                placeholder=''
+                autocomplete='off'
+                
+                
+                
+                
+            />
+        </div>
+
+
+        <ul class='autocomplete-results drop-menu-items-wrap'>
+            
+            <li class="autocomplete-result drop-menu-item variant-default-result" data-pk="" data-slug="Network science for built and natural systems " data-result="{&quot;title&quot;: &quot;network science for built and natural systems&quot;, &quot;slug&quot;: &quot;Network science for built and natural systems&quot;}">
+                <p>
+                    <font size="1">network science for built and natural systems</font>
+                </p>
+            </li>
+            
+            <li class="autocomplete-result drop-menu-item variant-default-result" data-pk="" data-slug="DeepSD for climate change" data-result="{&quot;title&quot;: &quot;DeepSD for climate change&quot;, &quot;slug&quot;: &quot;DeepSD for climate change&quot;}">
+                <p>
+                    DeepSD for climate change
+                </p>
+            </li>
+            
+            <li class="autocomplete-result drop-menu-item variant-default-result" data-pk="" data-slug="climate change and variability" data-result="{&quot;title&quot;: &quot;climate change and variability&quot;, &quot;slug&quot;: &quot;climate change and variability&quot;}">
+                <p>
+                    climate change and variability
+                </p>
+            </li>
+            
+            <li class="autocomplete-result drop-menu-item variant-default-result" data-pk="" data-slug="infrastructure resilience" data-result="{&quot;title&quot;: &quot;infrastructure resilience&quot;, &quot;slug&quot;: &quot;infrastructure resilience&quot;}">
+                <p>
+                    infrastructure resilience
+                </p>
+            </li>
+            
+        </ul>
+    </div>
+
+
+
+
+</fieldset>
+
+                    </div>
+                </fieldset>
+            </form>
+
+            
+            <script>
+                mlScripts.push(function (core) {
+                    require(['managers/GlobalSearchManager'], function (GlobalSearchManager) {
+                        new GlobalSearchManager({
+                            selector: '#hero-search',
+                            queryKey: 'tag',
+                            searchEndpoint: '/research/?filter=everything&tag={{ query }}',
+                            resetEndpoint: '/research/?filter=everything',
+                            redirectOnSelect: false,
+                            useResultSlug: true,
+                            resetWhenEmpty: true
+                        });
+                    });
+                });
+            </script>
+            
+        </div>
+    </div>
+
+            
+
+        
+            <script src='https://www.media.mit.edu/static/scripts/bundles/common.81837a4ece79.js'></script>
+
+        <script>
+            require(['core'], function (core) {
+                var serviceOptions = {
+                    externalLinkObserver: {
+                        linksInModal:  false
+                    }
+                };
+                core.init(mlScripts, serviceOptions);
+            });
+
+            if (document.documentMode || /Edge/.test(navigator.userAgent)) {
+                require(['services/ieHandler'], function (ieHandler) {
+                    ieHandler.init();
+                });
+            }
+        </script>	
+
+    </body>
+</html>
